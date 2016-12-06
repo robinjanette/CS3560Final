@@ -2,7 +2,7 @@
     @brief wc utitlity file
     @author Robin Kelby
 */
-     
+     //#include "gtest/gtest.h"
      #include <stdlib.h>
      #include <stdio.h>
      #include <stdarg.h>
@@ -165,3 +165,16 @@
          report ("total", total_ccount, total_wcount, total_lcount);
        return 0;
      }
+
+/*TEST(wc, counter){
+	unsigned long t1(0), t2(31), t3(58);
+	
+	char* s1 = "file1.txt";
+	char* s2 = "file2.txt";
+	char* s3 = "file3.txt";
+
+	EXPECT_EQ(t1, countChar(s1));
+	EXPECT_EQ(t2, countChar(s2));
+	EXPECT_EQ(t3, countChar(s3));
+}*/
+
