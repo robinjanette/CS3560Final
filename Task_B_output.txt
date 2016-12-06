@@ -1,0 +1,3 @@
+cppcheck output: returned no errors
+
+valgrind output: valgrind returned no errors or leaks, and was run both with and without a file
